@@ -38,7 +38,7 @@
 	 is odd and odd numbers are weird, so we print Weird.
 
 	Sample Case 1:  
-	 and  is even, so it isn't weird. Thus, we print Not Weird. */
+	 and  is even, so it isn't weird. Thus, we print Not Weird.  */
 
 import java.io.*;
 import java.math.*;
