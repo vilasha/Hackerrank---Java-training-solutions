@@ -1,5 +1,5 @@
-# Hackerrank---Java-training-solutions
-Solutions to all 64 problems of Java training at Hackerrank
+# Hackerrank-Java-training-solutions
+Solutions to all 64 problems of Java training at Hackerrank, use Java 7 and Java 8
 
 task01.java:	Welcome to Java!
 
