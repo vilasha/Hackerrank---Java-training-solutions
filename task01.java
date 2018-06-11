@@ -18,7 +18,7 @@
 	Sample Output
 
 	Hello, World.
-	Hello, Java. */
+	Hello, Java.  */
 
 public class Solution {
 
