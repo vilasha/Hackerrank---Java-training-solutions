@@ -30,7 +30,7 @@
 
 	String: Welcome to HackerRank's Java tutorials!
 	Double: 3.1415
-	Int: 42 */
+	Int: 42  */
 import java.util.Scanner;
 
 public class Solution {
