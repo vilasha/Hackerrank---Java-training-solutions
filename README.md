@@ -54,3 +54,77 @@ task25.java:	Java BigInteger
 task26.java:	Java BigDecimal
 
 task27.java:	Java Primality Test
+
+task28.java:	Java 1D Array
+
+task29.java:	Java 2D Array
+
+task30.java:	Java Subarray
+
+task31.java:	Java Arraylist
+
+task32.java:	Java 1D Array (Part 2)
+
+task33.java:	Java List
+
+task34.java:	Java Map
+
+task35.java:	Java Stack
+
+task36.java:	Java Hashset
+
+task37.java:	Java Generics
+
+task38.java:	Java Comparator
+
+task39.java:	Java Sort
+
+task40.java:	Java Dequeue
+
+task41.java:	Java BitSet
+
+task42.java:	Java Priority Queue
+
+task43.java:	Java Inheritance I
+
+task44.java:	Java Inheritance II
+
+task45.java:	Java Abstract Class
+
+task46.java:	Java Interface
+
+task47.java:	Java Method Overriding
+
+task48.java:	Java Method Overriding 2 (Super Keyword)
+
+task49.java:	Java Instanceof keyword
+
+task50.java:	Java Iterator
+
+task51.java:	Java Exception Handling (Try-catch)
+
+task52.java:	Java Exception Handling
+
+task53.java:	Java Varargs - Simple Addition
+
+task54.java:	Java Reflection - Attributes
+
+task55.java:	Can You Access?
+
+task56.java:	Prime Checker
+
+task57.java:	Java Factory Pattern
+
+task58.java:	Java Singleton Pattern
+
+task59.java:	Java Visitor Pattern
+
+task60.java:	Java Annotations
+
+task61.java:	Covariant Return Types
+
+task62.java:	Java Lambda Expressions
+
+task63.java:	Java MD5
+
+task64.java:	Java SHA-256
