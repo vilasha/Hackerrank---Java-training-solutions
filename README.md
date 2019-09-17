@@ -128,8 +128,3 @@ task62.java --- Java Lambda Expressions
 task63.java --- Java MD5
 
 task64.java --- Java SHA-256
-
-[taskCavityMap.java](taskCavityMap.java):   [Cavity Map](https://www.hackerrank.com/challenges/cavity-map/problem)
-
-[taskFairRations.java](taskFairRations.java):   [Fair Rations](https://www.hackerrank.com/challenges/fair-rations/problem)
-
