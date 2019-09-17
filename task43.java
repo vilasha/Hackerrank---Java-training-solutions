@@ -60,7 +60,7 @@ class Bird extends Animal
     }
 }
 
-public class Solution{
+public class task43{
 
    public static void main(String args[]){
 

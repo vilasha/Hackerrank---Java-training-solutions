@@ -37,33 +37,33 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-class Student {
+class Student1 {
     private int id;
     private String name;
     private double cgpa;
-    
-    Student(int id, String name, double cgpa) {
+
+    Student1(int id, String name, double cgpa) {
         this.id = id;
         this.name = name;
         this.cgpa = cgpa;
     }
-    
-    int getID() {
+
+    public int getID() {
         return id;
     }
-    String getName() {
+    public String getName() {
         return name;
     }
-    double getCGPA() {
+    public double getCGPA() {
         return cgpa;
     }
 }
 
-class Priorities extends java.util.PriorityQueue<Student> {
+class Priorities extends java.util.PriorityQueue<Student1> {
     
     Priorities() {
-        super(999, new java.util.Comparator<Student>() {
-            public int compare(Student s1, Student s2) {
+        super(999, new java.util.Comparator<Student1>() {
+            public int compare(Student1 s1, Student1 s2) {
                 if (s1.getCGPA() != s2.getCGPA())
                     return (s1.getCGPA() < s2.getCGPA()) ? 1 : -1;
                 else if (!s1.getName().equals(s2.getName()))
@@ -74,23 +74,23 @@ class Priorities extends java.util.PriorityQueue<Student> {
         });
     }
     
-    List<Student> getStudents(List<String> events) {
+    List<Student1> getStudents(List<String> events) {
         String[] params;
         for (String event : events) {
             params = event.split(" ");
             if ("ENTER".equals(params[0]))
-                this.offer(new Student(Integer.parseInt(params[3]), params[1], Double.parseDouble(params[2])));
+                this.offer(new Student1(Integer.parseInt(params[3]), params[1], Double.parseDouble(params[2])));
             if ("SERVED".equals(params[0]))
                 this.poll();
         }
-        List<Student> result = new ArrayList<>();
+        List<Student1> result = new ArrayList<>();
         while (!this.isEmpty())
             result.add(this.poll());
         return result;
     }
 }
 
-public class Solution {
+public class task42 {
     private final static Scanner scan = new Scanner(System.in);
     private final static Priorities priorities = new Priorities();
     
@@ -103,12 +103,12 @@ public class Solution {
             events.add(event);
         }
         
-        List<Student> students = priorities.getStudents(events);
+        List<Student1> students = priorities.getStudents(events);
         
         if (students.isEmpty()) {
             System.out.println("EMPTY");
         } else {
-            for (Student st: students) {
+            for (Student1 st: students) {
                 System.out.println(st.getName());
             }
         }

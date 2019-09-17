@@ -20,7 +20,7 @@
 
 import java.util.*;
 
-class Solution{
+class task35 {
 	
 	public static void main(String[] args)
 	{

@@ -14,7 +14,7 @@
 	
 import java.util.*;
 import java.security.*;
-public class Solution {
+public class task11 {
  public static void main(String[] args) {
 
   DoNotTerminate.forbidExit();

@@ -17,7 +17,7 @@
 	
 import java.util.Scanner;
 
-class MyCalculator {
+class MyCalculator1 {
     int power(int n, int p) throws Exception {
         if (n < 0 || p < 0)
             throw new Exception("n or p should not be negative.");
@@ -27,8 +27,8 @@ class MyCalculator {
     }
 }
 
-public class Solution {
-    public static final MyCalculator my_calculator = new MyCalculator();
+public class task52 {
+    public static final MyCalculator1 my_calculator = new MyCalculator1();
     public static final Scanner in = new Scanner(System.in);
     
     public static void main(String[] args) {

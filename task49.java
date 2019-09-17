@@ -4,10 +4,10 @@
 
 	In this problem we have given you three classes in the editor:
 
-	Student class
+	Student2 class
 	Rockstar class
 	Hacker class
-	In the main method, we populated an ArrayList with several instances of these classes. count method calculates how many instances of each type is present in the ArrayList. The code prints three integers, the number of instance of Student class, the number of instance of Rockstar class, the number of instance of Hacker class.
+	In the main method, we populated an ArrayList with several instances of these classes. count method calculates how many instances of each type is present in the ArrayList. The code prints three integers, the number of instance of Student2 class, the number of instance of Rockstar class, the number of instance of Hacker class.
 
 	But some lines of the code are missing, and you have to fix it by modifying only  lines! Don't add, delete or modify any extra line.
 
@@ -16,10 +16,10 @@
 	Sample Input
 
 	5
-	Student
-	Student
+	Student2
+	Student2
 	Rockstar
-	Student
+	Student2
 	Hacker
 	Sample Output
 
@@ -27,17 +27,17 @@
 	
 import java.util.*;
 
-class Student {}
+class Student2 {}
 class Rockstar {}
 class Hacker {}
 
-public class InstanceOFTutorial{
+public class task49{
 	
    static String count(ArrayList mylist){
       int a = 0,b = 0,c = 0;
       for(int i = 0; i < mylist.size(); i++){
          Object element=mylist.get(i);
-         if(element instanceof Student)
+         if(element instanceof Student2)
             a++;
          if(element instanceof Rockstar)
             b++;
@@ -54,7 +54,7 @@ public class InstanceOFTutorial{
       int t = sc.nextInt();
       for(int i=0; i<t; i++){
          String s=sc.next();
-         if(s.equals("Student"))mylist.add(new Student());
+         if(s.equals("Student2"))mylist.add(new Student2());
          if(s.equals("Rockstar"))mylist.add(new Rockstar());
          if(s.equals("Hacker"))mylist.add(new Hacker());
       }

@@ -19,11 +19,11 @@
 
 	Print the MD5 encryption value of  on a new line.	*/
 	
-import java.io.*;
-import java.util.*;
-import java.security.*;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Scanner;
 
-public class Solution {
+public class task63 {
 
     public static void main(String[] args) throws NoSuchAlgorithmException {
         Scanner sc = new Scanner(System.in);

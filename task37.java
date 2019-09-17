@@ -13,7 +13,6 @@
 	World
 	Do not use method overloading because your answer will not be accepted.	*/
 	
-import java.io.IOException;
 import java.lang.reflect.Method;
 
 class Printer
@@ -24,7 +23,7 @@ class Printer
    } 
 }
 
-public class Solution {
+public class task37 {
 
 
     public static void main( String args[] ) {

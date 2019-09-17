@@ -30,10 +30,9 @@
 	No
 	Hello Java  */
 	
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
-public class Solution {
+public class task14 {
 
     public static void main(String[] args) {
         

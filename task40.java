@@ -30,7 +30,7 @@
 	
 import java.util.*;
 
-public class test {
+public class task40 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Deque<Integer> deque = new ArrayDeque<Integer>();

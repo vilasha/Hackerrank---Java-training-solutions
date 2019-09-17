@@ -11,10 +11,9 @@
 
 	Yes  */
 	
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
-public class Solution {
+public class task17 {
 
     public static void main(String[] args) {
         

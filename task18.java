@@ -24,10 +24,10 @@
 
 	Anagrams  */
 	
-import java.io.*;
-import java.util.*;
+import java.util.List;
+import java.util.Scanner;
 
-public class Solution {
+public class task18 {
     static boolean isAnagram(String a, String b) {
         List<Character> aList = a.toLowerCase()
             .chars().mapToObj(e -> (char)e)

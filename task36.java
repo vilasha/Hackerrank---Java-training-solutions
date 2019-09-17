@@ -17,13 +17,10 @@
 
 	Print  lines. In the  line, print number of unique pairs you have after taking  pair as input.	*/
 	
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.HashSet;
+import java.util.Scanner;
 
-public class Solution {
+public class task36 {
 
  public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

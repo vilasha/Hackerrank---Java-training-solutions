@@ -36,8 +36,12 @@
 	There is no sample input/output for this problem. If you press "Run Code", it will compile it, but it won't show any outputs.
 
 	Hint: See the oracle docs for more details about JAVA Reflection Methods and Fields	*/
-	
-public class Solution {
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class task54 {
 
         public static void main(String[] args) throws ClassNotFoundException {
             Class student = Class.forName("Student");

@@ -39,7 +39,7 @@ class Player{
     }
 }
 
-class Solution {
+class task38 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

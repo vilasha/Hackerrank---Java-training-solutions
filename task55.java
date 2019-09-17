@@ -18,10 +18,10 @@ import java.util.regex.*;
 import java.security.*;
 
 
-public class Solution {
+public class task55 {
 
 	public static void main(String[] args) throws Exception {
-		DoNotTerminate.forbidExit();	
+		DoNotTerminate2.forbidExit();
 
 		try{
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -38,7 +38,7 @@ public class Solution {
 		
 		}//end of try
 		
-		catch (DoNotTerminate.ExitTrappedException e) {
+		catch (DoNotTerminate2.ExitTrappedException e) {
 			System.out.println("Unsuccessful Termination!!");
 		}
 	}//end of main
@@ -52,7 +52,7 @@ public class Solution {
 	
 }//end of Solution
 
-class DoNotTerminate { //This class prevents exit(0)
+class DoNotTerminate2 { //This class prevents exit(0)
 	 
     public static class ExitTrappedException extends SecurityException {
 

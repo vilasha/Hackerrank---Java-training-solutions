@@ -22,7 +22,7 @@
 import java.util.*;
 import java.util.stream.IntStream;
 
-public class Solution {
+public class task30 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

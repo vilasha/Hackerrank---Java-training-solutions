@@ -28,7 +28,7 @@ class MotorCycle extends BiCycle{
 	}
 	
 }
-class Solution{
+class task48{
 	public static void main(String []args){
 		MotorCycle M=new MotorCycle();
 	}

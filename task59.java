@@ -177,7 +177,7 @@ class FancyVisitor extends TreeVis {
     }
 }
 
-public class Solution {
+public class task59 {
     private static int[] values;
     private static Color[] colors;
     private static HashMap<Integer, HashSet<Integer>> map;

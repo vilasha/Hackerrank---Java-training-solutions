@@ -30,7 +30,7 @@ class Adder extends Arithmetic {
     
 }
 
-public class Solution{
+public class task44{
     public static void main(String []args){
         // Create a new Adder object
         Adder a = new Adder();

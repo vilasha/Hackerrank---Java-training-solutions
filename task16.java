@@ -28,13 +28,9 @@
 	ava
 	wel  */
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
-public class Solution {
+public class task16 {
   
     public static String getSmallestAndLargest(String s, int k) {
         String smallest = s.substring(0, k);

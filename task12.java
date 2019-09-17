@@ -27,7 +27,7 @@
 import java.util.Scanner;
 import java.time.LocalDate;
 
-public class Calendar {
+public class task12 {
     
     private static String getDay(String day, String month, String year) {
         LocalDate localDate = LocalDate.of(Integer.parseInt(year), Integer.parseInt(month), Integer.parseInt(day));

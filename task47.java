@@ -31,7 +31,6 @@
 	Soccer Class
 	Each team has 11 players in Soccer Class	*/
 	
-import java.util.*;
 class Sports{
 
     String getName(){
@@ -56,7 +55,7 @@ class Soccer extends Sports{
 
 }
 
-public class Solution{
+public class task47{
 	
     public static void main(String []args){
         Sports c1 = new Sports();

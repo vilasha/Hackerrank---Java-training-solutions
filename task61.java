@@ -68,7 +68,7 @@ class AndhraPradesh extends Region {
     }
 }
 
-public class Solution {
+public class task61 {
   public static void main(String[] args) throws IOException {
       BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
       String s = reader.readLine().trim();

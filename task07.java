@@ -27,7 +27,7 @@
 import java.util.*;
 import java.io.*;
 
-class Solution{
+class task07{
     public static void main(String []argh){
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();

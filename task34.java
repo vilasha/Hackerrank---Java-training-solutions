@@ -22,7 +22,7 @@
 	
 import java.util.*;
 
-class Solution{
+class task34 {
 	public static void main(String []argh)
 	{
 		Scanner in = new Scanner(System.in);

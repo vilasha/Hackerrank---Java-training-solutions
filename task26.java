@@ -43,7 +43,7 @@
 	
 import java.math.BigDecimal;
 import java.util.*;
-class Solution{
+class task26 {
 
     public static void main(String []args){
         //Input

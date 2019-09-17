@@ -51,7 +51,7 @@ class Sorter implements Comparator<Student> {
     }
 }
 
-public class Solution
+public class task39
 {
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);

@@ -21,7 +21,7 @@ import java.io.*;
 import java.util.*;
 import java.security.*;
 
-public class Solution {
+public class task64 {
 
     public static void main(String[] args) throws NoSuchAlgorithmException {
         Scanner sc = new Scanner(System.in);

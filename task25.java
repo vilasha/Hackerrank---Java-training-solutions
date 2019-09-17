@@ -24,11 +24,10 @@
 	1254
 	24680	*/
 	
-import java.io.*;
-import java.util.*;
 import java.math.BigInteger;
+import java.util.Scanner;
 
-public class Solution {
+public class task25 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

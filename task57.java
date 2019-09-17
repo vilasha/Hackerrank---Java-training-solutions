@@ -37,7 +37,7 @@ else
 
 	}//End of factory class
 
-	public class Solution {
+	public class task57 {
 
 	 public static void main(String args[]){
 			Do_Not_Terminate.forbidExit();

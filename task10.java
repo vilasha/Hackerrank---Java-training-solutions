@@ -38,7 +38,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class task10 {
 	
 	static boolean flag = true;
     static int B;

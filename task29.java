@@ -32,7 +32,7 @@
 	
 import java.util.*;
 
-public class Solution {
+public class task29 {
 
     private static final Scanner scanner = new Scanner(System.in);
     

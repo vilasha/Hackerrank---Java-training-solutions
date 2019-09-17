@@ -7,10 +7,9 @@
 
 	You will be given two integers  and  as input, you have to compute . If  and  are not  bit signed integers or if  is zero, exception will occur and you have to report it. Read sample Input/Output to know what to report in case of exceptions.	*/
 	
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
-public class Solution {
+public class task51 {
 
     public static void main(String[] args) {
         try ( Scanner sc = new Scanner(System.in) ) {

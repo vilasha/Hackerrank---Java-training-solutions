@@ -48,7 +48,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class task03 {
 
     public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

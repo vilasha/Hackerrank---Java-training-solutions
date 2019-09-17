@@ -31,7 +31,7 @@
 	Each String is left-justified with trailing whitespace through the first  characters. The leading digit of the integer is the  character, and each integer that was less than  digits now has leading zeroes.  */
 import java.util.Scanner;
 
-public class Solution {
+public class task05 {
 
     public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);

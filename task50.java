@@ -31,7 +31,7 @@
 	Note: The stdin doesn't contain the string "###", it is added in the main method.	*/
 	
 import java.util.*;
-public class Main{
+public class task50 {
 	
    static Iterator func(ArrayList mylist){
       Iterator it = mylist.iterator();

@@ -33,7 +33,7 @@
 	2 x 10 = 20 */
 import java.util.*;
 
-public class Solution {
+public class task06 {
 
     public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

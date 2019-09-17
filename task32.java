@@ -27,7 +27,7 @@
 	
 import java.util.*;
 
-public class Solution {
+public class task32 {
 
     public static boolean canWin(int leap, int[] game) {
         int N = game.length;

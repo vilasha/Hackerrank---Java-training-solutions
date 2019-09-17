@@ -53,7 +53,7 @@ class UsernameValidator {
     public static final String regularExpression = "[A-Za-z][A-Za-z0-9_]{7,29}+";
 }
 
-public class Solution {
+public class task23 {
     private static final Scanner scan = new Scanner(System.in);
     
     public static void main(String[] args) {

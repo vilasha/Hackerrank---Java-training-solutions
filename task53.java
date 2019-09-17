@@ -33,7 +33,7 @@ class Add {
     }
 }
 
-public class Solution {
+public class task53 {
 
     public static void main(String[] args) {
        try{

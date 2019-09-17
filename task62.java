@@ -38,7 +38,7 @@ class MyMath {
     }
 }
  
- public class Solution {
+ public class task62 {
 
  public static void main(String[] args) throws IOException {
   MyMath ob = new MyMath();
